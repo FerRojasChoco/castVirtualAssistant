@@ -1,0 +1,164 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hola
+    - buenas
+    - Hola
+    - buenos dias
+    - buenas tardes
+    - buenas noches
+    - haupei
+    - saludos
+    - alo
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hello
+    - hola!
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - adios
+    - chau
+    - Chau
+    - chua
+    - Adios!!!
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - si
+    - asi es
+    - claro
+    - porque no
+    - adelante
+    - correcto
+    - cierto
+    - afirmativo
+    - esta bien
+    - sim
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nao
+    - no quiero
+    - no, gracias
+    - no me gusta
+    - no es eso
+    - NO
+- intent: bot_challenge
+  examples: |
+    - are you a bot
+    - are you a human
+    - am I talking to a bot
+    - am I talking to a human
+    - help
+    - ayuda
+    - auxilio
+    - eres un robot
+    - estoy hablando con un humano
+    - estoy hablando con un robot
+    - quien sos
+    - eres un humano
+    - humano
+    - quiero hablar con un humano
+    - necesito hablar con un humano
+- intent: ask_hours
+  examples: |
+    - a que hora atienden
+    - Cual es su horario de atencion
+    - A que hora cierran
+    - cuando abren
+    - cuando cierran
+    - me podes decir el horario de atencion por favor
+    - en que tiempo estan
+    - cuando estan disponibles
+    - de que hora a que hora atienden
+    - de que hora a que hora abren
+    - en que momento estan
+    - en que momento atienden
+- intent: ask_services
+  examples: |
+    - Que servicios realizan
+    - Cuales son sus servicios
+    - Que servicios ofrecen
+    - Que tipo de soluciones tecnologicas proponen
+    - Servicio en oferta?
+    - Cuales son sus trabajos
+    - De que manera pueden ayudarme
+- intent: ask_prices
+  examples: |
+    - cuanto cuestan sus servicios
+    - cual es el monto de sus servicios
+    - cuanto cuesta contratarles
+    - precio
+    - cual es el precio de sus servicios
+    - cuanto cobran por servicio
+    - cuanto duele
+    - precio de sus servicios
+- intent: ask_location
+  examples: |
+    - donde quedan sus oficinas
+    - ubicacion
+    - en que lugar estan
+    - donde estan
+    - cual es su direccion
+    - donde esta su oficina
+    - lugar de su sucursal
+- intent: ask_app_download
+  examples: |
+    - Como descargar el aplicativo
+    - Donde puedo obtener/bajar/instalar la app?
+    - Cual es el proceso para instalar el aplicativo en mi dispositivo?
+    - Como se descarga la aplicacion movil?
+    - En que tienda/plataforma encuentro la app?
+    - Que pasos debo seguir para conseguir el programa?
+- intent: thanks
+  examples: |
+    - gracias
+    - garsias
+    - garcais
+    - Muchas gracias
+    - Buen servicio, muchas gracias
+    - Gracias por la informacion
+    - Eso es todo
+    - Me ha gustado el servicio
+    - Buen servicio de atencion
+- intent: ask_create_user
+  examples: |
+    - Como puedo crear un usuario desde el portal
+    - Como crear user en el portal
+    - Creacion de usuario
+    - Quiero crear un usuario con el portal
+    - web movil crear usuario portal
+

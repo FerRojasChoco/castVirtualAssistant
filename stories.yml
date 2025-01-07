@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+- story: user asks about time
+  steps:
+    - intent: ask_hours
+    - action: utter_ask_hours
+
+- story: user asks about services
+  steps:
+    - intent: ask_services
+    - action: utter_ask_services
+
+- story: user asks about location
+  steps:
+    - intent: ask_location
+    - action: utter_ask_location
+
+- story: user asks about prices
+  steps:
+    - intent: ask_prices
+    - action: utter_ask_prices
+
+- story: user asks how to download the app
+  steps:
+    - intent: ask_app_download
+    - action: utter_ask_app_download
+
+- story: user asks how to create user
+  steps:
+    - intent: ask_create_user
+    - action: utter_ask_create_user
