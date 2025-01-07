@@ -1,0 +1,82 @@
+version: '3.1'
+intents:
+- affirm
+- thanks
+- ask_create_user
+- ask_app_download
+- ask_location
+- ask_prices
+- ask_services
+- ask_hours
+- bot_challenge
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+responses:
+  utter_greet:
+  - text: Hola! En que te puedo ayudar?
+  - text: Buenas! Estoy aqui para ayudarte.
+  utter_did_that_help:
+  - text: Te ha sido de ayuda?
+  - text: Te ha servido esta informacion?
+  utter_thanks:
+  - text: Cast se complace de servirle!
+  - text: Cast a su servicio!
+  utter_goodbye:
+  - text: Hasta luego!
+  - text: Hasta pronto!
+  - text: Cast se complace de servirle!
+  utter_iamabot:
+  - text: Soy un robot, hecho en Rasa.
+  - text: Recuerda que soy un robot!
+  - text: Si necesitas una mano extra, contacta a soporte.
+  utter_ask_location:
+  - text: |
+      Nuestras oficinas se encuentran en el edificio Plaza Center.
+      Avda. Aviadores del Chaco 2806, piso 8. Barrio San Jorge - Asuncion.
+      https://maps.app.goo.gl/5UGFB5P1JUbchqWP9
+  utter_ask_prices:
+  - text: "Para saber acerca de los presupuestos para un servicio, contacte a un asesor comercial."
+  utter_ask_services:
+  - text: "Que servicios te interesan conocer?"
+  - text: |
+      Te interesa alguno de estos servicios?
+      - Preparar formularios a tu medida
+      - Crear rutas para tus colaboradores
+      - Supervisar a tus colaoradores online
+      - Tomar pedidos in situ
+  utter_ask_hours:
+  - text: |
+      Estamos para usted, de Lunes a Viernes de 8:00 a 17:30 hs, Sabado de 8:00 a 12:00 hs.
+      Puede comunicarse al canal de soporte al +595984377046 o llamar al +595 983 234 000 o al +595 21 238 1100
+      Nuestros equipos se encuentran a tu alcance.
+      Administrativo (595) 983 109 823
+      Comercial (595) 984 377 047
+  utter_ask_app_download:
+  - text: |
+      Puedes descargar la app con estos enlaces;
+      Viejo Mobile - http://www.cast.com.py/android/
+      Nuevo Mobile - http://cast.com.py/castMobile3
+      Es importante validar con su supervisor o al contacto de Soporte cual le corresponde ya que esto depende de su empresa o cargo
+  utter_ask_create_user:
+  - text:  |
+      En la seccion de Organizacion/Administrador de usuarios puede visualizar las siguientes opciones:
+      Ingresando a 'nuevo usuario' se muestran las siguientes alternativas:
+        - Grupo/Sucursal: Seleccione el grupo al que el usuario pertenece
+        - Cargo: Seleccione el cargo del usuario
+        - Movil/Web: Seleccione si el usuario a crear sera web o movil, luego complete la cantidad de usuarios a crear.
+      Siguiente paso (seleccione su preferencia)...
+    buttons:
+    - title: "Usuario Movil"
+      payload: "/thanks"
+    - title: "Usuario Web"
+      payload: "/ask_prices"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_goodbye
+- utter_cheer_up
+- utter_did_that_help
