@@ -1,4 +1,4 @@
-# NOTE: This repository is made public only from time to time to allow companies interested in my profile as a developer. 
+# NOTE: This repository is made public only during some period of time to show the project to companies interested in my profile as a developer. 
 ## It will be closed again after 1~2 weeks. The contents of the project have been modified before uploading it as a github repository to maintain confidentiality on the company's information.
 ## 🚀 CAST Virtual Assistant
 
