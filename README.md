@@ -2,17 +2,17 @@
 ## It will be closed again after 1~2 weeks. The contents of the project have been modified before uploading it as a github repository to maintain confidentiality on the company's information.
 ## 🚀 CAST Virtual Assistant
 
-[cite\_start]This is a virtual assistant designed for Cast S.A. (IT Company based in Paraguay), built using the **Rasa** framework[cite: 13].
+This is a virtual assistant designed for Cast S.A. (IT Company based in Paraguay), built using the **Rasa** framework.
 
 -----
 
 ### Project Overview 
 
-This project implements a conversational AI assistant to answer common customer inquiries about CAST's services, location, operating hours, app download links, and user creation process. The assistant is built in **Spanish** (`language: es`).
+This project implements a conversational AI assistant to answer common customer inquiries about Cast's services, location, operating hours, app download links, and user creation process. The assistant is built in **Spanish** (`language: es`).
 
 ### Technology Stack
 
-[cite\_start]The assistant is developed using **Rasa**, an open-source platform for creating virtual assistants at scale[cite: 13, 14]. [cite\_start]Rasa offers extensive customization and privacy compared to other options like Amazon Lex [cite: 8][cite\_start], Chai [cite: 9][cite\_start], Dasha [cite: 10][cite\_start], Dialogflow [cite: 11][cite\_start], OpenDialog [cite: 12][cite\_start], and SAP Conversational AI[cite: 16, 17].
+The assistant is developed using **Rasa**, an open-source platform for creating virtual assistants at scale. Rasa offers extensive customization and privacy compared to other options.
 
 The core components used are:
 
