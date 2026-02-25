@@ -1,10 +1,10 @@
-## 🚀 CAST Virtual Assistant
+## CAST Virtual Assistant
 
-This is a virtual assistant designed for Cast S.A. (IT Company based in Paraguay), built using the **Rasa** framework.
+Protoype of a virtual assistant designed for Cast S.A. (IT Company based in Paraguay), built using the **Rasa** framework.
 
 -----
 
-### Project Overview 
+### Overview 
 
 This project implements a conversational AI assistant to answer common customer inquiries about Cast's services, location, operating hours, app download links, and user creation process. The assistant is built in **Spanish** (`language: es`).
 
@@ -19,7 +19,7 @@ The core components used are:
 
 ### Assistant Capabilities (Intents & Responses)
 
-These are some of the  intents and corresponding bot responses are configured in `domain.yml`:
+These are some of the intents and corresponding bot responses are configured in `domain.yml`:
 
 | Intent | Description | Bot Response (`utter_...`) |
 | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ These are some of the  intents and corresponding bot responses are configured in
 | `mood_great` | User expresses positive mood. | |
 | `mood_unhappy`| User expresses negative mood. | |
 
-### 📂 Project Structure
+### Structure
 
   * **`domain.yml`**: Defines the intents, responses (`utter_...`), actions, and the session configuration.
   * **`nlu.yml`**: Contains training examples for the Natural Language Understanding model, mapping user phrases to their respective intents.
@@ -56,7 +56,7 @@ These are some of the  intents and corresponding bot responses are configured in
     pip install rasa
     ```
 2.  **Load the Project:** Place all configuration files in a Rasa project directory.
-3.  **Train the Model:** Train the conversational model using the provided configuration.
+3.  **Train the Model:** Train the conversational model using your own or the provided configuration.
     ```bash
     rasa train
     ```
